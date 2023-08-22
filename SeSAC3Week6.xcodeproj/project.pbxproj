@@ -17,6 +17,8 @@
 		899B1BBA2A949E7000AC64DE /* Example1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899B1BB92A949E7000AC64DE /* Example1ViewController.swift */; };
 		899B1BBD2A94ADD600AC64DE /* UITextField+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899B1BBC2A94ADD600AC64DE /* UITextField+.swift */; };
 		899B1BBF2A94B1CB00AC64DE /* UITextView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899B1BBE2A94B1CB00AC64DE /* UITextView+.swift */; };
+		899B1BC12A94B30700AC64DE /* Example2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899B1BC02A94B30700AC64DE /* Example2ViewController.swift */; };
+		899B1BCA2A94D13F00AC64DE /* BottomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899B1BC92A94D13F00AC64DE /* BottomButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		899B1BB92A949E7000AC64DE /* Example1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example1ViewController.swift; sourceTree = "<group>"; };
 		899B1BBC2A94ADD600AC64DE /* UITextField+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+.swift"; sourceTree = "<group>"; };
 		899B1BBE2A94B1CB00AC64DE /* UITextView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+.swift"; sourceTree = "<group>"; };
+		899B1BC02A94B30700AC64DE /* Example2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example2ViewController.swift; sourceTree = "<group>"; };
+		899B1BC92A94D13F00AC64DE /* BottomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +72,9 @@
 				896C50532A930A040071DB4F /* SceneDelegate.swift */,
 				896C50552A930A040071DB4F /* ViewController.swift */,
 				899B1BB92A949E7000AC64DE /* Example1ViewController.swift */,
+				899B1BC02A94B30700AC64DE /* Example2ViewController.swift */,
 				896C505A2A930A060071DB4F /* Assets.xcassets */,
+				899B1BC82A94D11800AC64DE /* CustomView */,
 				899B1BBB2A94ADC200AC64DE /* Extension */,
 				896C50652A930CEA0071DB4F /* Main.storyboard */,
 				896C505C2A930A060071DB4F /* LaunchScreen.storyboard */,
@@ -84,6 +90,14 @@
 				899B1BBE2A94B1CB00AC64DE /* UITextView+.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		899B1BC82A94D11800AC64DE /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				899B1BC92A94D13F00AC64DE /* BottomButtonView.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,8 +179,10 @@
 			files = (
 				896C50562A930A040071DB4F /* ViewController.swift in Sources */,
 				899B1BBF2A94B1CB00AC64DE /* UITextView+.swift in Sources */,
+				899B1BC12A94B30700AC64DE /* Example2ViewController.swift in Sources */,
 				899B1BBD2A94ADD600AC64DE /* UITextField+.swift in Sources */,
 				896C50522A930A040071DB4F /* AppDelegate.swift in Sources */,
+				899B1BCA2A94D13F00AC64DE /* BottomButtonView.swift in Sources */,
 				896C50542A930A040071DB4F /* SceneDelegate.swift in Sources */,
 				899B1BBA2A949E7000AC64DE /* Example1ViewController.swift in Sources */,
 			);
