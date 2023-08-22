@@ -14,6 +14,9 @@
 		896C505E2A930A060071DB4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 896C505C2A930A060071DB4F /* LaunchScreen.storyboard */; };
 		896C50662A930CEA0071DB4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 896C50652A930CEA0071DB4F /* Main.storyboard */; };
 		899B1BB82A949C3700AC64DE /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 899B1BB72A949C3700AC64DE /* SnapKit */; };
+		899B1BBA2A949E7000AC64DE /* Example1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899B1BB92A949E7000AC64DE /* Example1ViewController.swift */; };
+		899B1BBD2A94ADD600AC64DE /* UITextField+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899B1BBC2A94ADD600AC64DE /* UITextField+.swift */; };
+		899B1BBF2A94B1CB00AC64DE /* UITextView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899B1BBE2A94B1CB00AC64DE /* UITextView+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		896C505D2A930A060071DB4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		896C505F2A930A060071DB4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		896C50652A930CEA0071DB4F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		899B1BB92A949E7000AC64DE /* Example1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example1ViewController.swift; sourceTree = "<group>"; };
+		899B1BBC2A94ADD600AC64DE /* UITextField+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+.swift"; sourceTree = "<group>"; };
+		899B1BBE2A94B1CB00AC64DE /* UITextView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +67,23 @@
 				896C50512A930A040071DB4F /* AppDelegate.swift */,
 				896C50532A930A040071DB4F /* SceneDelegate.swift */,
 				896C50552A930A040071DB4F /* ViewController.swift */,
+				899B1BB92A949E7000AC64DE /* Example1ViewController.swift */,
 				896C505A2A930A060071DB4F /* Assets.xcassets */,
+				899B1BBB2A94ADC200AC64DE /* Extension */,
 				896C50652A930CEA0071DB4F /* Main.storyboard */,
 				896C505C2A930A060071DB4F /* LaunchScreen.storyboard */,
 				896C505F2A930A060071DB4F /* Info.plist */,
 			);
 			path = SeSAC3Week6;
+			sourceTree = "<group>";
+		};
+		899B1BBB2A94ADC200AC64DE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				899B1BBC2A94ADD600AC64DE /* UITextField+.swift */,
+				899B1BBE2A94B1CB00AC64DE /* UITextView+.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,8 +164,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				896C50562A930A040071DB4F /* ViewController.swift in Sources */,
+				899B1BBF2A94B1CB00AC64DE /* UITextView+.swift in Sources */,
+				899B1BBD2A94ADD600AC64DE /* UITextField+.swift in Sources */,
 				896C50522A930A040071DB4F /* AppDelegate.swift in Sources */,
 				896C50542A930A040071DB4F /* SceneDelegate.swift in Sources */,
+				899B1BBA2A949E7000AC64DE /* Example1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
