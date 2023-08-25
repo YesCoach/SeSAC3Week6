@@ -208,6 +208,5 @@ private extension Example2ViewController {
                 $0.width.equalTo(button.snp.height)
             }
         }
-
     }
 }
